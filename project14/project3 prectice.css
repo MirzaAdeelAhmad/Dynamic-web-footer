@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(21, 21, 65);
+}
+
+.main{
+    width: 100vw;
+    height: 90vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.icone{
+    color: white;
+    font-size: 60px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.counter{
+    font-size: 70px;
+    color: rgb(255, 166, 0);
+    padding: 20px;
+}
+
+
